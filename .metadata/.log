@@ -1,0 +1,37 @@
+!SESSION 2008-12-13 00:07:05.296 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.fullversion=J2RE 1.5.0 IBM J9 2.3 Windows XP x86-32 j9vmwi3223-20070201 (JIT enabled)
+J9VM - 20070131_11312_lHdSMR
+JIT  - 20070109_1805ifx1_r8
+GC   - 200701_09
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -data C:\wamp\www -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2008-12-13 00:27:24.093
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2008-12-13 00:27:24.093
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.rename.element,Rename - Refactoring ,
+		Renames the selected element,
+		Category(org.eclipse.php.ui.category.refactoring,Refactor - PHP,PHP Refactoring Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.php.internal.ui.actions.RenameAction@50a050a)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.php.ui.edit.text.rename.element,Rename - Refactoring ,
+		Renames the selected element,
+		Category(org.eclipse.php.ui.category.refactoring,Refactor - PHP,PHP Refactoring Actions,true),
+		LegacyHandlerWrapper(ActionHandler(action=org.eclipse.php.internal.ui.actions.RenameAction@50a050a)),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.php.ui.phpEditorScope,,,system)

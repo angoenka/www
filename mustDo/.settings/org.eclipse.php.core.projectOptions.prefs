@@ -1,0 +1,5 @@
+#Sat Dec 13 00:30:01 IST 2008
+eclipse.preferences.version=1
+org.eclipse.php.core.contextRoot=
+org.eclipse.php.core.defaultEncoding=
+org.eclipse.php.core.includePath=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<includepath>\r\n\t<includepathentry resource\="symfony" contentKind\="source" path\="/symfony" kind\="prj" createdReference\="true">\r\n</includepathentry>\r\n</includepath>\r\n
