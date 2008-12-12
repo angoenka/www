@@ -1,0 +1,213 @@
+Dec 12 17:42:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 17:42:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 17:42:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 17:42:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /register with parameters array (  'module' => 'register',  'action' => 'index',)
+Dec 12 17:42:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 17:42:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 17:42:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 17:42:40 symfony [info] {registerActions} Call "registerActions->executeIndex()"
+Dec 12 17:42:40 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/register/templates/indexSuccess.php"
+Dec 12 17:42:41 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 17:42:41 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 17:42:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 17:42:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 17:42:41 symfony [info] {sfWebDebugLogger} Configuration 2126.37 ms (9)
+Dec 12 17:42:41 symfony [info] {sfWebDebugLogger} Action "register/index" 424.39 ms (1)
+Dec 12 17:42:41 symfony [info] {sfWebDebugLogger} View "Success" for "register/index" 689.22 ms (1)
+Dec 12 17:42:41 symfony [info] {sfWebResponse} Send content (25325 o)
+Dec 12 17:53:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 17:53:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 17:53:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 17:53:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /register with parameters array (  'module' => 'register',  'action' => 'index',)
+Dec 12 17:53:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 17:53:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 17:53:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 17:53:28 symfony [info] {registerActions} Call "registerActions->executeIndex()"
+Dec 12 17:53:28 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/register/templates/indexSuccess.php"
+Dec 12 17:53:28 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 17:53:28 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 17:53:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 17:53:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 17:53:28 symfony [info] {sfWebDebugLogger} Configuration 41.00 ms (9)
+Dec 12 17:53:28 symfony [info] {sfWebDebugLogger} Action "register/index" 25.72 ms (1)
+Dec 12 17:53:28 symfony [info] {sfWebDebugLogger} View "Success" for "register/index" 79.91 ms (1)
+Dec 12 17:53:28 symfony [info] {sfWebResponse} Send content (25631 o)
+Dec 12 17:53:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 17:53:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 17:53:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 17:53:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /register with parameters array (  'module' => 'register',  'action' => 'index',)
+Dec 12 17:53:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 17:53:41 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 17:53:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 17:53:41 symfony [info] {registerActions} Call "registerActions->executeIndex()"
+Dec 12 17:53:41 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 12 17:53:41 symfony [debug] {sfPropelLogger} prepare: INSERT INTO user (`USERID`,`ACTIVEDATE`) VALUES (:p1,:p2)
+Dec 12 17:53:41 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 12 17:53:41 symfony [debug] {sfPropelLogger} Binding '2008-12-12 17:53:41' at position :p2 w/ PDO type PDO::PARAM_STR
+Dec 12 17:53:41 symfony [err] {sfPropelLogger} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 2
+Dec 12 17:53:41 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 2]
+Dec 12 17:53:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 17:53:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 17:53:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 17:53:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /register with parameters array (  'module' => 'register',  'action' => 'index',)
+Dec 12 17:53:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 17:53:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 17:53:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 17:53:53 symfony [info] {registerActions} Call "registerActions->executeIndex()"
+Dec 12 17:53:53 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 12 17:53:53 symfony [debug] {sfPropelLogger} prepare: INSERT INTO user (`USERID`,`ACTIVEDATE`) VALUES (:p1,:p2)
+Dec 12 17:53:53 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 12 17:53:53 symfony [debug] {sfPropelLogger} Binding '2008-12-12 17:53:53' at position :p2 w/ PDO type PDO::PARAM_STR
+Dec 12 17:53:53 symfony [err] {sfPropelLogger} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 2
+Dec 12 17:53:53 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 2]
+Dec 12 17:54:31 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 17:54:31 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 17:54:31 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 17:54:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /register with parameters array (  'module' => 'register',  'action' => 'index',)
+Dec 12 17:54:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 17:54:31 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 17:54:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 17:54:31 symfony [info] {registerActions} Call "registerActions->executeIndex()"
+Dec 12 17:54:31 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 12 17:54:31 symfony [debug] {sfPropelLogger} prepare: INSERT INTO user (`USERID`,`ACTIVEDATE`) VALUES (:p1,:p2)
+Dec 12 17:54:31 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 12 17:54:31 symfony [debug] {sfPropelLogger} Binding '2008-12-12 17:54:31' at position :p2 w/ PDO type PDO::PARAM_STR
+Dec 12 17:54:31 symfony [info] {sfFrontWebController} Redirect to "http://localhost/mustDo/web/remindersList_dev.php/register/submit"
+Dec 12 17:54:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 12 17:54:31 symfony [info] {sfWebResponse} Send header "Location: http://localhost/mustDo/web/remindersList_dev.php/register/submit"
+Dec 12 17:54:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 17:54:31 symfony [info] {sfWebDebugLogger} Configuration 34.97 ms (8)
+Dec 12 17:54:31 symfony [info] {sfWebDebugLogger} Action "register/index" 115.17 ms (1)
+Dec 12 17:54:31 symfony [info] {sfWebResponse} Send content (20975 o)
+Dec 12 17:54:31 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 17:54:31 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 17:54:31 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 17:54:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /register/submit with parameters array (  'module' => 'register',  'action' => 'submit',)
+Dec 12 17:54:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 17:54:31 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 17:54:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 17:54:31 symfony [info] {registerActions} Call "registerActions->executeSubmit()"
+Dec 12 17:54:31 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/register/templates/submitSuccess.php"
+Dec 12 17:54:31 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 17:54:31 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 17:54:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 17:54:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 17:54:31 symfony [info] {sfWebDebugLogger} Configuration 43.08 ms (9)
+Dec 12 17:54:31 symfony [info] {sfWebDebugLogger} Action "register/submit" 0.30 ms (1)
+Dec 12 17:54:31 symfony [info] {sfWebDebugLogger} View "Success" for "register/submit" 56.62 ms (1)
+Dec 12 17:54:32 symfony [info] {sfWebResponse} Send content (24882 o)
+Dec 12 18:01:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 18:01:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 18:01:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 18:01:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /register with parameters array (  'module' => 'register',  'action' => 'index',)
+Dec 12 18:01:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 18:01:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 18:01:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 18:01:25 symfony [info] {registerActions} Call "registerActions->executeIndex()"
+Dec 12 18:01:25 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 12 18:01:25 symfony [debug] {sfPropelLogger} prepare: INSERT INTO user (`USERID`,`USERNAME`,`ACTIVEDATE`) VALUES (:p1,:p2,:p3)
+Dec 12 18:01:25 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 12 18:01:25 symfony [debug] {sfPropelLogger} Binding 'test11' at position :p2 w/ PDO type PDO::PARAM_STR
+Dec 12 18:01:25 symfony [debug] {sfPropelLogger} Binding '2008-12-12 18:01:25' at position :p3 w/ PDO type PDO::PARAM_STR
+Dec 12 18:01:25 symfony [info] {sfFrontWebController} Redirect to "http://localhost/mustDo/web/remindersList_dev.php/register/submit"
+Dec 12 18:01:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 12 18:01:25 symfony [info] {sfWebResponse} Send header "Location: http://localhost/mustDo/web/remindersList_dev.php/register/submit"
+Dec 12 18:01:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 18:01:25 symfony [info] {sfWebDebugLogger} Configuration 39.46 ms (8)
+Dec 12 18:01:25 symfony [info] {sfWebDebugLogger} Action "register/index" 129.63 ms (1)
+Dec 12 18:01:25 symfony [info] {sfWebResponse} Send content (21011 o)
+Dec 12 18:01:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 18:01:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 18:01:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 18:01:26 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /register/submit with parameters array (  'module' => 'register',  'action' => 'submit',)
+Dec 12 18:01:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 18:01:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 18:01:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 18:01:26 symfony [info] {registerActions} Call "registerActions->executeSubmit()"
+Dec 12 18:01:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/register/templates/submitSuccess.php"
+Dec 12 18:01:26 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 18:01:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 18:01:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 18:01:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 18:01:26 symfony [info] {sfWebDebugLogger} Configuration 39.13 ms (9)
+Dec 12 18:01:26 symfony [info] {sfWebDebugLogger} Action "register/submit" 0.31 ms (1)
+Dec 12 18:01:26 symfony [info] {sfWebDebugLogger} View "Success" for "register/submit" 50.24 ms (1)
+Dec 12 18:01:26 symfony [info] {sfWebResponse} Send content (24882 o)
+Dec 12 18:02:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 18:02:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 18:02:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 18:02:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /register with parameters array (  'module' => 'register',  'action' => 'index',)
+Dec 12 18:02:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 18:02:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 18:02:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 18:02:19 symfony [info] {registerActions} Call "registerActions->executeIndex()"
+Dec 12 18:02:20 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 12 18:02:20 symfony [debug] {sfPropelLogger} prepare: INSERT INTO user (`USERID`,`USERNAME`,`MAINEMAIL`,`PASSWORD`,`ACTIVEDATE`) VALUES (:p1,:p2,:p3,:p4,:p5)
+Dec 12 18:02:20 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 12 18:02:20 symfony [debug] {sfPropelLogger} Binding 'vivek' at position :p2 w/ PDO type PDO::PARAM_STR
+Dec 12 18:02:20 symfony [debug] {sfPropelLogger} Binding 'test1@test1.com' at position :p3 w/ PDO type PDO::PARAM_STR
+Dec 12 18:02:20 symfony [debug] {sfPropelLogger} Binding 'vivekvivek' at position :p4 w/ PDO type PDO::PARAM_STR
+Dec 12 18:02:20 symfony [debug] {sfPropelLogger} Binding '2008-12-12 18:02:19' at position :p5 w/ PDO type PDO::PARAM_STR
+Dec 12 18:02:20 symfony [info] {sfFrontWebController} Redirect to "http://localhost/mustDo/web/remindersList_dev.php/register/submit"
+Dec 12 18:02:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 12 18:02:20 symfony [info] {sfWebResponse} Send header "Location: http://localhost/mustDo/web/remindersList_dev.php/register/submit"
+Dec 12 18:02:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 18:02:20 symfony [info] {sfWebDebugLogger} Configuration 35.41 ms (8)
+Dec 12 18:02:20 symfony [info] {sfWebDebugLogger} Action "register/index" 116.50 ms (1)
+Dec 12 18:02:20 symfony [info] {sfWebResponse} Send content (21099 o)
+Dec 12 18:02:20 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 18:02:20 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 18:02:20 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 18:02:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /register/submit with parameters array (  'module' => 'register',  'action' => 'submit',)
+Dec 12 18:02:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 18:02:20 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 18:02:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 18:02:20 symfony [info] {registerActions} Call "registerActions->executeSubmit()"
+Dec 12 18:02:20 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/register/templates/submitSuccess.php"
+Dec 12 18:02:20 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 18:02:20 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 18:02:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 18:02:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 18:02:20 symfony [info] {sfWebDebugLogger} Configuration 43.58 ms (9)
+Dec 12 18:02:20 symfony [info] {sfWebDebugLogger} Action "register/submit" 0.31 ms (1)
+Dec 12 18:02:20 symfony [info] {sfWebDebugLogger} View "Success" for "register/submit" 49.62 ms (1)
+Dec 12 18:02:20 symfony [info] {sfWebResponse} Send content (24882 o)
+Dec 12 18:03:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 18:03:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 18:03:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 18:03:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /register with parameters array (  'module' => 'register',  'action' => 'index',)
+Dec 12 18:03:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 18:03:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 18:03:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 18:03:06 symfony [info] {registerActions} Call "registerActions->executeIndex()"
+Dec 12 18:03:06 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 12 18:03:06 symfony [debug] {sfPropelLogger} prepare: INSERT INTO user (`USERID`,`USERNAME`,`MAINEMAIL`,`PASSWORD`,`JOINDATE`) VALUES (:p1,:p2,:p3,:p4,:p5)
+Dec 12 18:03:06 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 12 18:03:06 symfony [debug] {sfPropelLogger} Binding 'vivek' at position :p2 w/ PDO type PDO::PARAM_STR
+Dec 12 18:03:06 symfony [debug] {sfPropelLogger} Binding 'test1@test1.com' at position :p3 w/ PDO type PDO::PARAM_STR
+Dec 12 18:03:06 symfony [debug] {sfPropelLogger} Binding 'vivek' at position :p4 w/ PDO type PDO::PARAM_STR
+Dec 12 18:03:06 symfony [debug] {sfPropelLogger} Binding '2008-12-12 18:03:06' at position :p5 w/ PDO type PDO::PARAM_STR
+Dec 12 18:03:06 symfony [info] {sfFrontWebController} Redirect to "http://localhost/mustDo/web/remindersList_dev.php/register/submit"
+Dec 12 18:03:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 12 18:03:06 symfony [info] {sfWebResponse} Send header "Location: http://localhost/mustDo/web/remindersList_dev.php/register/submit"
+Dec 12 18:03:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 18:03:06 symfony [info] {sfWebDebugLogger} Configuration 36.99 ms (8)
+Dec 12 18:03:06 symfony [info] {sfWebDebugLogger} Action "register/index" 132.20 ms (1)
+Dec 12 18:03:06 symfony [info] {sfWebResponse} Send content (21072 o)
+Dec 12 18:03:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 18:03:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 18:03:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 18:03:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /register/submit with parameters array (  'module' => 'register',  'action' => 'submit',)
+Dec 12 18:03:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 18:03:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 18:03:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 18:03:07 symfony [info] {registerActions} Call "registerActions->executeSubmit()"
+Dec 12 18:03:07 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/register/templates/submitSuccess.php"
+Dec 12 18:03:07 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 18:03:07 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 18:03:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 18:03:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 18:03:07 symfony [info] {sfWebDebugLogger} Configuration 42.38 ms (9)
+Dec 12 18:03:07 symfony [info] {sfWebDebugLogger} Action "register/submit" 0.31 ms (1)
+Dec 12 18:03:07 symfony [info] {sfWebDebugLogger} View "Success" for "register/submit" 52.84 ms (1)
+Dec 12 18:03:07 symfony [info] {sfWebResponse} Send content (24882 o)

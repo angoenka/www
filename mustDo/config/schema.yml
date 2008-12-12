@@ -1,0 +1,80 @@
+propel:
+  _attributes:
+    package: lib.model
+    defaultIdMethod: native
+  actioncode:
+    _attributes: { phpName: Actioncode }
+    actioncode: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    actionname: { type: VARCHAR, size: '100', required: true }
+    actiondesc: { type: LONGVARCHAR, required: false }
+  emailschedule:
+    _attributes: { phpName: Emailschedule }
+    scdID: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    userID: { type: INTEGER, size: '10', required: true }
+    email: { type: VARCHAR, size: '100', required: true }
+    schedule: { type: VARCHAR, size: '100', required: false }
+    deleted: { type: TINYINT, size: '1', required: false }
+    active: { type: TINYINT, size: '1', required: true, defaultValue: '0' }
+    creationDate: { type: TIMESTAMP, required: true }
+    lastRunDate: { type: TIMESTAMP, required: false }
+    templateID: { type: VARCHAR, size: '45', required: false }
+    sortString: { type: VARCHAR, size: '100', required: true }
+    Subject: { type: VARCHAR, size: '100', required: true, defaultValue: REMINDER }
+  facilitycode:
+    _attributes: { phpName: Facilitycode }
+    facilitycode: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    facilityname: { type: VARCHAR, size: '100', required: true }
+    facilitydesc: { type: LONGVARCHAR, required: false }
+  logdb:
+    _attributes: { phpName: Logdb }
+    logID: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    entryDate: { type: TIMESTAMP, required: true }
+    actionCode: { type: INTEGER, size: '10', required: true }
+    actionDescription: { type: VARCHAR, size: '45', required: true }
+    userID: { type: INTEGER, size: '11', required: true, defaultValue: '-1' }
+    logType: { type: INTEGER, size: '10', required: true }
+    deleted: { type: TINYINT, size: '1', required: true, defaultValue: '0' }
+  tasks:
+    _attributes: { phpName: Tasks }
+    taskID: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    scdIDs: { type: VARCHAR, size: '200', required: true, defaultValue: '0' }
+    userID: { type: INTEGER, size: '10', required: true }
+    taskpriority: { type: INTEGER, size: '10', required: true, defaultValue: '3' }
+    taskString: { type: VARCHAR, size: '200', required: true }
+    taskDesciption: { type: LONGVARCHAR, required: false }
+    deleted: { type: TINYINT, size: '1', required: false }
+    active: { type: TINYINT, size: '1', required: true, defaultValue: '1' }
+  user:
+    _attributes: { phpName: User }
+    userID: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    userName: { type: VARCHAR, size: '100', required: true }
+    mainEmail: { type: VARCHAR, size: '100', required: true }
+    deleted: { type: TINYINT, size: '1', required: false }
+    active: { type: TINYINT, size: '1', required: true, defaultValue: '0' }
+    password: { type: VARCHAR, size: '200', required: true }
+    joinDate: { type: TIMESTAMP, required: true }
+    activationCode: { type: VARCHAR, size: '100', required: false }
+    activationRequestDate: { type: TIMESTAMP, required: false }
+    activeDate: { type: TIMESTAMP, required: false }
+    deleteDate: { type: TIMESTAMP, required: false }
+    _uniques: { userName: [userName], mainEmail: [mainEmail] }
+  userpreference:
+    _attributes: { phpName: Userpreference }
+    preferenceID: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    userID: { type: INTEGER, size: '11', required: true }
+    language: { type: VARCHAR, size: '45', required: true, defaultValue: en-us }
+    ourUpdates: { type: TINYINT, size: '1', required: true, defaultValue: '1' }
+    adminContact: { type: TINYINT, size: '1', required: true, defaultValue: '1' }
+    agreementVersion: { type: VARCHAR, size: '45', required: true, defaultValue: '1.0' }
+    themeID: { type: VARCHAR, size: '45', required: true, defaultValue: '1.0' }
+  vocab:
+    _attributes: { phpName: Vocab }
+    vocabID: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    scdID: { type: INTEGER, size: '10', required: true }
+    noOfWords: { type: INTEGER, size: '10', required: true, defaultValue: '0' }
+    typeOfWords: { type: INTEGER, size: '10', required: true, defaultValue: '0' }
+    language: { type: VARCHAR, size: '45', required: true, defaultValue: en-us }
+  vocablog:
+    _attributes: { phpName: Vocablog }
+    userID: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
+    wordIDs: { type: LONGVARCHAR, required: true }
