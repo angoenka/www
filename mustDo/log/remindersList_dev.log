@@ -211,3 +211,242 @@ Dec 12 18:03:07 symfony [info] {sfWebDebugLogger} Configuration 42.38 ms (9)
 Dec 12 18:03:07 symfony [info] {sfWebDebugLogger} Action "register/submit" 0.31 ms (1)
 Dec 12 18:03:07 symfony [info] {sfWebDebugLogger} View "Success" for "register/submit" 52.84 ms (1)
 Dec 12 18:03:07 symfony [info] {sfWebResponse} Send content (24882 o)
+Dec 12 19:31:44 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:31:44 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:31:44 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:31:44 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Dec 12 19:31:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:31:44 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:31:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:31:44 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Dec 12 19:31:44 symfony [info] {defaultActions} Forward to action "default/module"
+Dec 12 19:31:44 symfony [info] {sfFrontWebController} Action "default/module" does not exist
+Dec 12 19:31:44 symfony [err] {sfError404Exception} Action "default/module" does not exist.
+Dec 12 19:31:54 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:31:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:31:54 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:31:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:31:54 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:31:54 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:32:45 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:32:45 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:32:45 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:32:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /task/thankYou with parameters array (  'module' => 'task',  'action' => 'thankYou',)
+Dec 12 19:32:45 symfony [info] {sfFrontWebController} Action "task/thankYou" does not exist
+Dec 12 19:32:45 symfony [err] {sfError404Exception} Action "task/thankYou" does not exist.
+Dec 12 19:33:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:33:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:33:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:33:06 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/task/" (/).
+Dec 12 19:33:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:33:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:33:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:33:17 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:33:17 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:33:17 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:33:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:33:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:33:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:33:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Dec 12 19:33:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:33:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:33:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:33:47 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Dec 12 19:33:47 symfony [info] {defaultActions} Forward to action "default/module"
+Dec 12 19:33:47 symfony [info] {sfFrontWebController} Action "default/module" does not exist
+Dec 12 19:33:47 symfony [err] {sfError404Exception} Action "default/module" does not exist.
+Dec 12 19:34:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:34:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:34:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:34:05 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:34:05 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:34:05 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:35:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:35:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:35:13 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:35:13 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:35:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /login with parameters array (  'module' => 'login',  'action' => 'index',)
+Dec 12 19:35:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:35:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:35:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:35:21 symfony [info] {loginActions} Call "loginActions->executeIndex()"
+Dec 12 19:35:21 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/login/templates/indexSuccess.php"
+Dec 12 19:35:21 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:35:21 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:35:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 19:35:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 19:35:21 symfony [info] {sfWebDebugLogger} Configuration 159.36 ms (10)
+Dec 12 19:35:21 symfony [info] {sfWebDebugLogger} Action "login/index" 26.35 ms (1)
+Dec 12 19:35:21 symfony [info] {sfWebDebugLogger} View "Success" for "login/index" 107.65 ms (1)
+Dec 12 19:35:21 symfony [info] {sfWebResponse} Send content (26511 o)
+Dec 12 19:37:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:37:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:37:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:37:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:37:12 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:37:12 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:38:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:38:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:38:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:38:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:38:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:38:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:38:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:38:07 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 12 19:38:07 symfony [info] {taskActions} Forward to action "default/module"
+Dec 12 19:38:07 symfony [info] {sfFrontWebController} Action "default/module" does not exist
+Dec 12 19:38:07 symfony [err] {sfError404Exception} Action "default/module" does not exist.
+Dec 12 19:38:09 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:38:09 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:38:09 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:38:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:38:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:38:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:38:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:38:09 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 12 19:38:09 symfony [info] {taskActions} Forward to action "default/module"
+Dec 12 19:38:09 symfony [info] {sfFrontWebController} Action "default/module" does not exist
+Dec 12 19:38:09 symfony [err] {sfError404Exception} Action "default/module" does not exist.
+Dec 12 19:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:38:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:38:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:38:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:38:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:38:14 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 12 19:38:14 symfony [info] {taskActions} Forward to action "default/module"
+Dec 12 19:38:14 symfony [info] {sfFrontWebController} Action "default/module" does not exist
+Dec 12 19:38:14 symfony [err] {sfError404Exception} Action "default/module" does not exist.
+Dec 12 19:38:17 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:38:17 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:38:17 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:38:17 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:38:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:38:17 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:38:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:38:17 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 12 19:38:17 symfony [info] {taskActions} Forward to action "default/module"
+Dec 12 19:38:17 symfony [info] {sfFrontWebController} Action "default/module" does not exist
+Dec 12 19:38:17 symfony [err] {sfError404Exception} Action "default/module" does not exist.
+Dec 12 19:39:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:39:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:39:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:39:04 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 12 19:39:04 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 12 19:39:04 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:39:04 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:39:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 19:39:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 19:39:04 symfony [info] {sfWebDebugLogger} Configuration 128.04 ms (10)
+Dec 12 19:39:04 symfony [info] {sfWebDebugLogger} Action "task/index" 0.39 ms (1)
+Dec 12 19:39:04 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 142.05 ms (1)
+Dec 12 19:39:04 symfony [info] {sfWebResponse} Send content (26070 o)
+Dec 12 19:39:37 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:37 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:37 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:37 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:39:37 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:39:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:38 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:39:38 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:39:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:39 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:39:39 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:39:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:40 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:39:40 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:39:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:40 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:39:40 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:39:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:41 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:39:41 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:39:42 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:42 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:42 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:42 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:39:42 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:39:42 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:42 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:42 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:42 symfony [info] {sfFrontWebController} Action "task/index" does not exist
+Dec 12 19:39:42 symfony [err] {sfError404Exception} Action "task/index" does not exist.
+Dec 12 19:39:51 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:39:51 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:39:51 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:39:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:39:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:39:51 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:39:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:39:51 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 12 19:39:51 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 12 19:39:51 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:39:51 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:39:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 19:39:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 19:39:51 symfony [info] {sfWebDebugLogger} Configuration 70.42 ms (9)
+Dec 12 19:39:51 symfony [info] {sfWebDebugLogger} Action "task/index" 33.96 ms (1)
+Dec 12 19:39:51 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 93.44 ms (1)
+Dec 12 19:39:51 symfony [info] {sfWebResponse} Send content (27112 o)
+Dec 12 19:42:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:42:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:42:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:42:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:42:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:42:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:42:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:42:14 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 12 19:42:14 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 12 19:42:14 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:42:14 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:42:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 19:42:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 19:42:14 symfony [info] {sfWebDebugLogger} Configuration 50.64 ms (9)
+Dec 12 19:42:14 symfony [info] {sfWebDebugLogger} Action "task/index" 15.65 ms (1)
+Dec 12 19:42:14 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 42.82 ms (1)
+Dec 12 19:42:14 symfony [info] {sfWebResponse} Send content (27157 o)
+Dec 12 19:42:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 12 19:42:16 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 12 19:42:16 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 12 19:42:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 12 19:42:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 12 19:42:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 12 19:42:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 12 19:42:16 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 12 19:42:16 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 12 19:42:16 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:42:16 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 12 19:42:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 12 19:42:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 12 19:42:16 symfony [info] {sfWebDebugLogger} Configuration 51.05 ms (9)
+Dec 12 19:42:16 symfony [info] {sfWebDebugLogger} Action "task/index" 15.30 ms (1)
+Dec 12 19:42:16 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 41.21 ms (1)
+Dec 12 19:42:16 symfony [info] {sfWebResponse} Send content (27157 o)

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.server.core,1.1.1.v20080730,org.eclipse.wst.server.core,1229108977640
+started,bundle,org.eclipse.wst.server.ui,1.1.2.v20080916,org.eclipse.wst.server.ui,1229108977750
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229108987015
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229108988359
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229108991500
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109119937
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109121171
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109481421
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109484031
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109593046
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109593875
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109595937
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109667156
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.refresh,1229109671312
+no handler,command,org.eclipse.datatools.sqltools.result,,org.eclipse.datatools.sqltools.result.removeAllInstances,1229109686640
+started,bundle,org.eclipse.ltk.core.refactoring,3.4.1.r341_v20080716-0800,org.eclipse.ltk.core.refactoring,1229109692593
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.1.r341_v20080716-0800,org.eclipse.ltk.ui.refactoring,1229109692609
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109693015
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109695609
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.1.r341_v20080716-0800,org.eclipse.ltk.ui.refactoring.commands.deleteResources,1229109695625
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.delete,1229109695625
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109697171
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109697515
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109697578
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1229109702375
