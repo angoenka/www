@@ -30,9 +30,6 @@ class TasksForm extends sfForm
       'taskPriority' => new sfValidatorChoice(array('choices' => array_keys(self::$taskPriority))),
       'taskDescription' => new sfValidatorString(array('max_length' => 1000)),
 	  'active' => new sfValidatorString(array('required' => false))
-    ));
-	
-	
-    
+    ));   
   }
 }

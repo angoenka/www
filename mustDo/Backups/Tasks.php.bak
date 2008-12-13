@@ -31,24 +31,7 @@ class Tasks extends BaseTasks
                 $c->addAscendingOrderByColumn(TasksPeer::TASKSTRING);
             }
         }
-        else if($sort == "creationDate"){
-            if($way == 1){
-                $c->addDescendingOrderByColumn(TasksPeer::CREATIONDATE);
-            }
-            else{
-                $c->addAscendingOrderByColumn(TasksPeer::CREATIONDATE);
-            }
-        }
-        else if($sort == "updateDate"){
-            if($way == 1){
-                $c->addDescendingOrderByColumn(TasksPeer::UPDATEDATE);
-            }
-            else{
-                $c->addAscendingOrderByColumn(TasksPeer::UPDATEDATE);
-            }
-        }
         $c->add(TasksPeer::USERID, $userId);
-        $c->add(TasksPeer::DELETED, 0);
         $result = TasksPeer::doSelect($c);
         return $result;
     }
@@ -65,18 +48,6 @@ class Tasks extends BaseTasks
             $result->setActive(1);
         if($result != null && $result->getActive() == 1 && $stateNum == 1)
             $result->setActive(0);
-        $result->save();
-    }
-    
-    public function deleteTask($taskId)
-    {
-        $user = sfContext::getInstance()->getUser();  
-        $userId = $user->getAttribute('userId');
-        $c = new Criteria();
-        $c->add(TasksPeer::USERID, $userId);
-        $c->add(TasksPeer::TASKID, $taskId);
-        $result = TasksPeer::doSelectOne($c);
-        $result->setDeleted(1);
         $result->save();
     }
 }

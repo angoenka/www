@@ -44,6 +44,8 @@ propel:
     taskDesciption: { type: LONGVARCHAR, required: false }
     deleted: { type: TINYINT, size: '1', required: false }
     active: { type: TINYINT, size: '1', required: true, defaultValue: '1' }
+    creationDate: { type: TIMESTAMP, required: true }
+    updateDate: { type: TIMESTAMP, required: true }
   user:
     _attributes: { phpName: User }
     userID: { type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true }
