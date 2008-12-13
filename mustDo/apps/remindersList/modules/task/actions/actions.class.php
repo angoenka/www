@@ -36,7 +36,6 @@ class taskActions extends sfActions
 				$active = $request->getParameter('active');
 
 				$task = new Tasks();
-				print_r($this->form->getValues() . "dsfs");
 				$task->setUserid($userSession->getAttribute('userId'));
 				if($this->form->getValue('active') == "on"){
 					$task->setActive(1);
@@ -59,7 +58,7 @@ class taskActions extends sfActions
   					'active' => $request->getParameter('active')
 				);
 
-				$this->redirect('tasks/thankyou?'.http_build_query($this->form->getValues()));
+				$this->redirect('task/thankyou?'.http_build_query($this->form->getValues()));
 			}
 		}
 	}

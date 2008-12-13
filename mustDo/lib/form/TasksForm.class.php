@@ -1,10 +1,12 @@
 <?php 
-class TasksForm extends sfForm
+class TasksForm extends BaseTasksForm 
 {
   protected static $taskPriority = array('1', '2', '3', '4', '5');
   
   public function configure()
   {
+  	unset($this->widgetSchema['scdids']) ;
+  	
     $this->setWidgets(array(
       'taskString'    => new sfWidgetFormInput(),
       'taskPriority' => new sfWidgetFormSelect(array('choices' => self::$taskPriority)),
@@ -16,7 +18,7 @@ class TasksForm extends sfForm
  		'taskString'    => 'Task name',
   		'taskPriority'   => 'Task Priority',
   		'taskDescription' => 'Task Description',
-  		'active' => "Active"
+  		'active' => 'Active'
 	));
 	
 	$this->setDefault('taskPriority', '2');

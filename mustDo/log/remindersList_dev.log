@@ -450,3 +450,1356 @@ Dec 12 19:42:16 symfony [info] {sfWebDebugLogger} Configuration 51.05 ms (9)
 Dec 12 19:42:16 symfony [info] {sfWebDebugLogger} Action "task/index" 15.30 ms (1)
 Dec 12 19:42:16 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 41.21 ms (1)
 Dec 12 19:42:16 symfony [info] {sfWebResponse} Send content (27157 o)
+Dec 13 07:39:52 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 07:39:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 07:39:52 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 07:39:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 07:39:52 symfony [info] {myUser} Automatic user logout due to timeout
+Dec 13 07:39:52 symfony [info] {myUser} User is not authenticated
+Dec 13 07:39:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 07:39:52 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 07:39:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 07:39:52 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 07:39:52 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 07:39:53 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 07:39:53 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 07:39:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 07:39:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 07:39:53 symfony [info] {sfWebDebugLogger} Configuration 42.98 ms (9)
+Dec 13 07:39:53 symfony [info] {sfWebDebugLogger} Action "task/index" 18.90 ms (1)
+Dec 13 07:39:53 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 43.33 ms (1)
+Dec 13 07:39:53 symfony [info] {sfWebResponse} Send content (27720 o)
+Dec 13 07:48:43 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 07:48:43 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 07:48:43 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 07:48:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 07:48:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 07:48:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 07:48:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 07:48:43 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 07:48:43 symfony [info] {emailActions} Forward to action "default/module"
+Dec 13 07:48:43 symfony [info] {sfFrontWebController} Action "default/module" does not exist
+Dec 13 07:48:43 symfony [err] {sfError404Exception} Action "default/module" does not exist.
+Dec 13 09:01:37 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:01:37 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:01:37 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:01:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:01:37 symfony [info] {myUser} Automatic user logout due to timeout
+Dec 13 09:01:37 symfony [info] {myUser} User is not authenticated
+Dec 13 09:01:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:01:37 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:01:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:01:37 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:01:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:01:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:01:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:01:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:01:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:01:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:01:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:01:39 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:01:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:01:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:01:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:01:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:01:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:01:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:01:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:01:40 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:01:42 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:01:42 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:01:42 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:01:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:01:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:01:42 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:01:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:01:42 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:01:43 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:01:43 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:01:43 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:01:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:01:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:01:43 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:01:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:01:43 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:01:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:01:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:01:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:01:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:01:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:01:59 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:01:59 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:01:59 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:01:59 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:01:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:01:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:01:59 symfony [info] {sfWebDebugLogger} Configuration 1271.85 ms (9)
+Dec 13 09:01:59 symfony [info] {sfWebDebugLogger} Action "task/index" 74.00 ms (1)
+Dec 13 09:01:59 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 111.43 ms (1)
+Dec 13 09:01:59 symfony [info] {sfWebResponse} Send content (27474 o)
+Dec 13 09:10:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:10:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:10:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:10:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:10:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:10:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:10:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:10:26 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:10:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:10:26 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:10:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:10:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:10:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:10:26 symfony [info] {sfWebDebugLogger} Configuration 81.66 ms (9)
+Dec 13 09:10:26 symfony [info] {sfWebDebugLogger} Action "task/index" 74.03 ms (1)
+Dec 13 09:10:26 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 92.36 ms (1)
+Dec 13 09:10:26 symfony [info] {sfWebResponse} Send content (27472 o)
+Dec 13 09:10:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:10:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:10:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:10:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:10:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:10:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:10:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:10:28 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:10:28 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:10:28 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:10:28 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:10:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:10:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:10:28 symfony [info] {sfWebDebugLogger} Configuration 85.78 ms (9)
+Dec 13 09:10:28 symfony [info] {sfWebDebugLogger} Action "task/index" 71.38 ms (1)
+Dec 13 09:10:28 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 93.18 ms (1)
+Dec 13 09:10:28 symfony [info] {sfWebResponse} Send content (27472 o)
+Dec 13 09:10:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:10:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:10:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:10:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:10:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:10:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:10:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:10:29 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:10:29 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:10:29 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:10:29 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:10:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:10:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:10:29 symfony [info] {sfWebDebugLogger} Configuration 60.28 ms (9)
+Dec 13 09:10:29 symfony [info] {sfWebDebugLogger} Action "task/index" 72.12 ms (1)
+Dec 13 09:10:29 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 91.00 ms (1)
+Dec 13 09:10:29 symfony [info] {sfWebResponse} Send content (27472 o)
+Dec 13 09:12:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:12:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:12:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:12:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:12:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:12:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:12:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:12:29 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:12:29 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:12:29 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:29 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:12:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:12:29 symfony [info] {sfWebDebugLogger} Configuration 72.17 ms (9)
+Dec 13 09:12:29 symfony [info] {sfWebDebugLogger} Action "task/index" 79.09 ms (1)
+Dec 13 09:12:29 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 98.98 ms (1)
+Dec 13 09:12:29 symfony [info] {sfWebResponse} Send content (27472 o)
+Dec 13 09:12:31 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:12:31 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:12:31 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:12:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:12:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:12:31 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:12:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:12:31 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:12:31 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:12:31 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:31 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:12:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:12:31 symfony [info] {sfWebDebugLogger} Configuration 83.71 ms (9)
+Dec 13 09:12:31 symfony [info] {sfWebDebugLogger} Action "task/index" 77.70 ms (1)
+Dec 13 09:12:31 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 90.67 ms (1)
+Dec 13 09:12:31 symfony [info] {sfWebResponse} Send content (27495 o)
+Dec 13 09:12:32 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:12:32 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:12:32 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:12:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:12:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:12:33 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:12:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:12:33 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:12:33 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:12:33 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:33 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:12:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:12:33 symfony [info] {sfWebDebugLogger} Configuration 84.64 ms (9)
+Dec 13 09:12:33 symfony [info] {sfWebDebugLogger} Action "task/index" 70.30 ms (1)
+Dec 13 09:12:33 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 88.27 ms (1)
+Dec 13 09:12:33 symfony [info] {sfWebResponse} Send content (27495 o)
+Dec 13 09:12:52 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:12:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:12:52 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:12:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:12:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:12:52 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:12:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:12:52 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:12:52 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:12:52 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:52 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:12:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:12:52 symfony [info] {sfWebDebugLogger} Configuration 1253.76 ms (9)
+Dec 13 09:12:52 symfony [info] {sfWebDebugLogger} Action "task/index" 69.83 ms (1)
+Dec 13 09:12:52 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 98.49 ms (1)
+Dec 13 09:12:52 symfony [info] {sfWebResponse} Send content (27473 o)
+Dec 13 09:12:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:12:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:12:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:12:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:12:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:12:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:12:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:12:53 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:12:53 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:12:53 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:53 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:12:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:12:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:12:53 symfony [info] {sfWebDebugLogger} Configuration 87.55 ms (9)
+Dec 13 09:12:53 symfony [info] {sfWebDebugLogger} Action "task/index" 71.30 ms (1)
+Dec 13 09:12:53 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 109.99 ms (1)
+Dec 13 09:12:53 symfony [info] {sfWebResponse} Send content (27496 o)
+Dec 13 09:14:09 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:14:09 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:14:09 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:14:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:14:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:14:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:14:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:14:09 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:14:09 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:14:09 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:14:09 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:14:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:14:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:14:09 symfony [info] {sfWebDebugLogger} Configuration 58.40 ms (9)
+Dec 13 09:14:09 symfony [info] {sfWebDebugLogger} Action "task/index" 70.34 ms (1)
+Dec 13 09:14:09 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 91.00 ms (1)
+Dec 13 09:14:09 symfony [info] {sfWebResponse} Send content (27472 o)
+Dec 13 09:14:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:14:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:14:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:14:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:14:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:14:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:14:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:14:10 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:14:11 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:14:11 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:14:11 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:14:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:14:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:14:11 symfony [info] {sfWebDebugLogger} Configuration 58.94 ms (9)
+Dec 13 09:14:11 symfony [info] {sfWebDebugLogger} Action "task/index" 69.90 ms (1)
+Dec 13 09:14:11 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 89.90 ms (1)
+Dec 13 09:14:11 symfony [info] {sfWebResponse} Send content (27472 o)
+Dec 13 09:14:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:14:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:14:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:14:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:14:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:14:12 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:14:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:14:12 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:14:12 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:14:12 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:14:12 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:14:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:14:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:14:12 symfony [info] {sfWebDebugLogger} Configuration 85.33 ms (9)
+Dec 13 09:14:12 symfony [info] {sfWebDebugLogger} Action "task/index" 70.75 ms (1)
+Dec 13 09:14:12 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 85.11 ms (1)
+Dec 13 09:14:12 symfony [info] {sfWebResponse} Send content (27495 o)
+Dec 13 09:14:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:14:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:14:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:14:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:14:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:14:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:14:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:14:13 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:14:13 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:14:13 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:14:13 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:14:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:14:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:14:13 symfony [info] {sfWebDebugLogger} Configuration 75.38 ms (9)
+Dec 13 09:14:13 symfony [info] {sfWebDebugLogger} Action "task/index" 83.29 ms (1)
+Dec 13 09:14:13 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 91.75 ms (1)
+Dec 13 09:14:13 symfony [info] {sfWebResponse} Send content (27495 o)
+Dec 13 09:15:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:15:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:15:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:15:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:15:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:15:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:15:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:15:26 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:15:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:15:26 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:15:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:15:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:15:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:15:26 symfony [info] {sfWebDebugLogger} Configuration 66.60 ms (9)
+Dec 13 09:15:26 symfony [info] {sfWebDebugLogger} Action "task/index" 32.46 ms (1)
+Dec 13 09:15:26 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 89.24 ms (1)
+Dec 13 09:15:26 symfony [info] {sfWebResponse} Send content (27157 o)
+Dec 13 09:15:46 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:15:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:15:46 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:15:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:15:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:15:46 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:15:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:15:46 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:15:46 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:15:46 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:15:46 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:15:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:15:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:15:46 symfony [info] {sfWebDebugLogger} Configuration 77.84 ms (9)
+Dec 13 09:15:46 symfony [info] {sfWebDebugLogger} Action "task/index" 80.98 ms (1)
+Dec 13 09:15:46 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 88.87 ms (1)
+Dec 13 09:15:46 symfony [info] {sfWebResponse} Send content (27158 o)
+Dec 13 09:15:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:15:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:15:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:15:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:15:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:15:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:15:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:15:48 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:15:48 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:15:48 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:15:48 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:15:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:15:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:15:48 symfony [info] {sfWebDebugLogger} Configuration 71.66 ms (9)
+Dec 13 09:15:48 symfony [info] {sfWebDebugLogger} Action "task/index" 83.01 ms (1)
+Dec 13 09:15:48 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 91.91 ms (1)
+Dec 13 09:15:48 symfony [info] {sfWebResponse} Send content (27181 o)
+Dec 13 09:15:49 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:15:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:15:49 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:15:49 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:15:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:15:49 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:15:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:15:49 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:15:50 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:15:50 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:15:50 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:15:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:15:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:15:50 symfony [info] {sfWebDebugLogger} Configuration 93.99 ms (9)
+Dec 13 09:15:50 symfony [info] {sfWebDebugLogger} Action "task/index" 77.87 ms (1)
+Dec 13 09:15:50 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 87.68 ms (1)
+Dec 13 09:15:50 symfony [info] {sfWebResponse} Send content (27181 o)
+Dec 13 09:16:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:16:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:16:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:16:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:16:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:16:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:16:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:16:00 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:16:00 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:16:00 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:16:00 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:16:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:16:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:16:00 symfony [info] {sfWebDebugLogger} Configuration 59.93 ms (9)
+Dec 13 09:16:00 symfony [info] {sfWebDebugLogger} Action "task/index" 75.69 ms (1)
+Dec 13 09:16:00 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 91.09 ms (1)
+Dec 13 09:16:00 symfony [info] {sfWebResponse} Send content (27539 o)
+Dec 13 09:16:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:16:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:16:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:16:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:16:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:16:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:16:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:16:48 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:16:48 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:16:48 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:16:48 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:16:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:16:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:16:48 symfony [info] {sfWebDebugLogger} Configuration 82.90 ms (9)
+Dec 13 09:16:48 symfony [info] {sfWebDebugLogger} Action "task/index" 76.81 ms (1)
+Dec 13 09:16:48 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 84.20 ms (1)
+Dec 13 09:16:48 symfony [info] {sfWebResponse} Send content (27158 o)
+Dec 13 09:18:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:18:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:18:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:18:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:18:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:18:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:18:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:18:55 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:18:56 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:18:56 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:18:56 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:18:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:18:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:18:56 symfony [info] {sfWebDebugLogger} Configuration 71.65 ms (9)
+Dec 13 09:18:56 symfony [info] {sfWebDebugLogger} Action "task/index" 84.02 ms (1)
+Dec 13 09:18:56 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 96.30 ms (1)
+Dec 13 09:18:56 symfony [info] {sfWebResponse} Send content (27611 o)
+Dec 13 09:19:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:19:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:19:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:19:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:19:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:19:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:19:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:19:19 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:19:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:19:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:19:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:19:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:19:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:19:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:19:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:19:21 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:19:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:19:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:19:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:19:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:19:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:19:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:19:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:19:22 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:19:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:19:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:19:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:19:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:19:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:19:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:19:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:19:36 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:19:36 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:19:36 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:19:36 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:19:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:19:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:19:36 symfony [info] {sfWebDebugLogger} Configuration 85.10 ms (9)
+Dec 13 09:19:36 symfony [info] {sfWebDebugLogger} Action "task/index" 75.82 ms (1)
+Dec 13 09:19:36 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 93.05 ms (1)
+Dec 13 09:19:36 symfony [info] {sfWebResponse} Send content (27597 o)
+Dec 13 09:19:51 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:19:51 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:19:51 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:19:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:19:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:19:51 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:19:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:19:51 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:19:51 symfony [err] {InvalidArgumentException} A field must be an instance of sfWidget.
+Dec 13 09:20:50 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:20:50 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:20:50 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:20:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:20:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:20:50 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:20:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:20:50 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:20:50 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:20:50 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:20:50 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:20:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:20:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:20:50 symfony [info] {sfWebDebugLogger} Configuration 83.93 ms (9)
+Dec 13 09:20:50 symfony [info] {sfWebDebugLogger} Action "task/index" 71.75 ms (1)
+Dec 13 09:20:50 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 89.39 ms (1)
+Dec 13 09:20:50 symfony [info] {sfWebResponse} Send content (27323 o)
+Dec 13 09:22:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:22:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:22:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:22:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:22:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:22:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:22:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:22:04 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:22:05 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:22:05 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:22:05 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:22:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:22:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:22:05 symfony [info] {sfWebDebugLogger} Configuration 70.76 ms (9)
+Dec 13 09:22:05 symfony [info] {sfWebDebugLogger} Action "task/index" 78.05 ms (1)
+Dec 13 09:22:05 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 94.74 ms (1)
+Dec 13 09:22:05 symfony [info] {sfWebResponse} Send content (27323 o)
+Dec 13 09:22:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:22:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:22:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:22:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:22:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:22:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:22:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:22:06 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:22:06 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:22:06 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:22:06 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:22:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:22:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:22:06 symfony [info] {sfWebDebugLogger} Configuration 76.48 ms (9)
+Dec 13 09:22:06 symfony [info] {sfWebDebugLogger} Action "task/index" 71.84 ms (1)
+Dec 13 09:22:06 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 99.00 ms (1)
+Dec 13 09:22:06 symfony [info] {sfWebResponse} Send content (27323 o)
+Dec 13 09:22:07 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:22:07 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:22:07 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:22:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:22:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:22:07 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:22:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:22:07 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:22:07 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:22:07 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:22:07 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:22:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:22:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:22:07 symfony [info] {sfWebDebugLogger} Configuration 87.36 ms (9)
+Dec 13 09:22:07 symfony [info] {sfWebDebugLogger} Action "task/index" 73.84 ms (1)
+Dec 13 09:22:07 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 88.80 ms (1)
+Dec 13 09:22:08 symfony [info] {sfWebResponse} Send content (27323 o)
+Dec 13 09:22:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:22:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:22:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:22:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /tasks with parameters array (  'module' => 'tasks',  'action' => 'index',)
+Dec 13 09:22:10 symfony [info] {sfFrontWebController} Action "tasks/index" does not exist
+Dec 13 09:22:10 symfony [err] {sfError404Exception} Action "tasks/index" does not exist.
+Dec 13 09:22:51 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:22:51 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:22:51 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:22:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /tasks with parameters array (  'module' => 'tasks',  'action' => 'index',)
+Dec 13 09:22:51 symfony [info] {sfFrontWebController} Action "tasks/index" does not exist
+Dec 13 09:22:51 symfony [err] {sfError404Exception} Action "tasks/index" does not exist.
+Dec 13 09:22:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:22:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:22:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:22:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /tasks with parameters array (  'module' => 'tasks',  'action' => 'index',)
+Dec 13 09:22:53 symfony [info] {sfFrontWebController} Action "tasks/index" does not exist
+Dec 13 09:22:53 symfony [err] {sfError404Exception} Action "tasks/index" does not exist.
+Dec 13 09:24:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:24:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:24:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:24:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:24:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:24:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:24:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:24:48 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:24:48 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:24:48 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:24:48 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:24:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:24:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:24:48 symfony [info] {sfWebDebugLogger} Configuration 73.24 ms (9)
+Dec 13 09:24:48 symfony [info] {sfWebDebugLogger} Action "task/index" 71.99 ms (1)
+Dec 13 09:24:48 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 90.59 ms (1)
+Dec 13 09:24:49 symfony [info] {sfWebResponse} Send content (27291 o)
+Dec 13 09:24:50 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:24:50 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:24:50 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:24:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /tasks with parameters array (  'module' => 'tasks',  'action' => 'index',)
+Dec 13 09:24:50 symfony [info] {sfFrontWebController} Action "tasks/index" does not exist
+Dec 13 09:24:50 symfony [err] {sfError404Exception} Action "tasks/index" does not exist.
+Dec 13 09:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:24:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:24:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:24:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:24:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:24:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:24:55 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:24:55 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:24:55 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:24:55 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:24:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:24:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:24:55 symfony [info] {sfWebDebugLogger} Configuration 60.38 ms (9)
+Dec 13 09:24:55 symfony [info] {sfWebDebugLogger} Action "task/index" 70.39 ms (1)
+Dec 13 09:24:55 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 89.50 ms (1)
+Dec 13 09:24:55 symfony [info] {sfWebResponse} Send content (27346 o)
+Dec 13 09:24:57 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:24:57 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:24:57 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:24:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /tasks with parameters array (  'module' => 'tasks',  'action' => 'index',)
+Dec 13 09:24:57 symfony [info] {sfFrontWebController} Action "tasks/index" does not exist
+Dec 13 09:24:57 symfony [err] {sfError404Exception} Action "tasks/index" does not exist.
+Dec 13 09:25:39 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:25:39 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:25:39 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:25:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:25:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:25:39 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:25:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:25:39 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:25:39 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:25:39 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:25:39 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:25:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:25:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:25:39 symfony [info] {sfWebDebugLogger} Configuration 87.85 ms (9)
+Dec 13 09:25:39 symfony [info] {sfWebDebugLogger} Action "task/index" 72.15 ms (1)
+Dec 13 09:25:39 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 89.08 ms (1)
+Dec 13 09:25:39 symfony [info] {sfWebResponse} Send content (27322 o)
+Dec 13 09:25:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:25:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:25:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:25:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:25:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:25:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:25:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:25:40 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:25:41 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:25:41 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:25:41 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:25:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:25:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:25:41 symfony [info] {sfWebDebugLogger} Configuration 77.29 ms (9)
+Dec 13 09:25:41 symfony [info] {sfWebDebugLogger} Action "task/index" 75.16 ms (1)
+Dec 13 09:25:41 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 100.87 ms (1)
+Dec 13 09:25:41 symfony [info] {sfWebResponse} Send content (28129 o)
+Dec 13 09:26:52 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:26:52 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:26:52 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:26:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:26:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:26:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:26:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:26:53 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:26:53 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:26:53 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:26:53 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:26:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:26:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:26:53 symfony [info] {sfWebDebugLogger} Configuration 72.30 ms (9)
+Dec 13 09:26:53 symfony [info] {sfWebDebugLogger} Action "task/index" 92.90 ms (1)
+Dec 13 09:26:53 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 94.70 ms (1)
+Dec 13 09:26:53 symfony [info] {sfWebResponse} Send content (28377 o)
+Dec 13 09:31:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:31:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:31:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:31:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:31:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:31:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:31:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:31:21 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:31:21 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:31:21 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:31:21 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:31:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:31:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:31:21 symfony [info] {sfWebDebugLogger} Configuration 85.64 ms (9)
+Dec 13 09:31:21 symfony [info] {sfWebDebugLogger} Action "task/index" 92.43 ms (1)
+Dec 13 09:31:21 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 87.79 ms (1)
+Dec 13 09:31:21 symfony [info] {sfWebResponse} Send content (28258 o)
+Dec 13 09:31:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:31:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:31:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:31:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:31:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:31:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:31:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:31:25 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:31:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:31:26 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:31:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:31:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:31:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:31:26 symfony [info] {sfWebDebugLogger} Configuration 76.72 ms (9)
+Dec 13 09:31:26 symfony [info] {sfWebDebugLogger} Action "task/index" 77.47 ms (1)
+Dec 13 09:31:26 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 92.17 ms (1)
+Dec 13 09:31:26 symfony [info] {sfWebResponse} Send content (27125 o)
+Dec 13 09:31:30 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:31:30 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:31:30 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:31:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:31:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:31:30 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:31:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:31:30 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:31:30 symfony [err] {sfException} Call to undefined method BaseTasks::setTaskdescription
+Dec 13 09:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:34:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:34:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:34:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:34:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:34:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:34:24 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:34:25 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/task/templates/indexSuccess.php"
+Dec 13 09:34:25 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:34:25 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 09:34:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 09:34:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 09:34:25 symfony [info] {sfWebDebugLogger} Configuration 1236.59 ms (9)
+Dec 13 09:34:25 symfony [info] {sfWebDebugLogger} Action "task/index" 76.69 ms (1)
+Dec 13 09:34:25 symfony [info] {sfWebDebugLogger} View "Success" for "task/index" 100.27 ms (1)
+Dec 13 09:34:25 symfony [info] {sfWebResponse} Send content (27159 o)
+Dec 13 09:34:27 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 09:34:27 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 09:34:27 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 09:34:27 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /task with parameters array (  'module' => 'task',  'action' => 'index',)
+Dec 13 09:34:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 09:34:27 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 09:34:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 09:34:27 symfony [info] {taskActions} Call "taskActions->executeIndex()"
+Dec 13 09:34:27 symfony [err] {sfException} Call to undefined method BaseTasks::setTaskdescription
+Dec 13 10:08:09 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:08:09 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:08:09 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:08:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:08:09 symfony [info] {myUser} Automatic user logout due to timeout
+Dec 13 10:08:09 symfony [info] {myUser} User is not authenticated
+Dec 13 10:08:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:08:09 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:08:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:08:09 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:08:10 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:08:10 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:08:10 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:08:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:08:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:08:10 symfony [info] {sfWebDebugLogger} Configuration 186.45 ms (10)
+Dec 13 10:08:10 symfony [info] {sfWebDebugLogger} Action "email/index" 22.54 ms (1)
+Dec 13 10:08:10 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 94.24 ms (1)
+Dec 13 10:08:10 symfony [info] {sfWebResponse} Send content (26932 o)
+Dec 13 10:09:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:09:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:09:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:09:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:09:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:09:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:09:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:09:03 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:09:03 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:09:03 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:09:03 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:09:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:09:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:09:03 symfony [info] {sfWebDebugLogger} Configuration 82.92 ms (9)
+Dec 13 10:09:03 symfony [info] {sfWebDebugLogger} Action "email/index" 83.99 ms (1)
+Dec 13 10:09:03 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 84.37 ms (1)
+Dec 13 10:09:03 symfony [info] {sfWebResponse} Send content (27372 o)
+Dec 13 10:09:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:09:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:09:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:09:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:09:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:09:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:09:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:09:13 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:09:13 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:09:13 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:09:13 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:09:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:09:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:09:13 symfony [info] {sfWebDebugLogger} Configuration 89.75 ms (9)
+Dec 13 10:09:13 symfony [info] {sfWebDebugLogger} Action "email/index" 78.44 ms (1)
+Dec 13 10:09:13 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 86.38 ms (1)
+Dec 13 10:09:13 symfony [info] {sfWebResponse} Send content (27830 o)
+Dec 13 10:09:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:09:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:09:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:09:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:09:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:09:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:09:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:09:15 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:09:15 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:09:15 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:09:15 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:09:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:09:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:09:15 symfony [info] {sfWebDebugLogger} Configuration 98.21 ms (9)
+Dec 13 10:09:15 symfony [info] {sfWebDebugLogger} Action "email/index" 75.91 ms (1)
+Dec 13 10:09:15 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 88.11 ms (1)
+Dec 13 10:09:15 symfony [info] {sfWebResponse} Send content (27830 o)
+Dec 13 10:11:20 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:11:20 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:11:20 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:11:20 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:11:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:11:20 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:11:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:11:20 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:11:20 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:11:20 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:11:20 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:11:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:11:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:11:20 symfony [info] {sfWebDebugLogger} Configuration 83.97 ms (9)
+Dec 13 10:11:20 symfony [info] {sfWebDebugLogger} Action "email/index" 88.15 ms (1)
+Dec 13 10:11:20 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 84.90 ms (1)
+Dec 13 10:11:20 symfony [info] {sfWebResponse} Send content (28078 o)
+Dec 13 10:13:03 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:13:03 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:13:03 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:13:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:13:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:13:03 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:13:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:13:03 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:13:03 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:13:03 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:13:03 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:13:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:13:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:13:03 symfony [info] {sfWebDebugLogger} Configuration 84.35 ms (9)
+Dec 13 10:13:03 symfony [info] {sfWebDebugLogger} Action "email/index" 79.95 ms (1)
+Dec 13 10:13:03 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 112.05 ms (1)
+Dec 13 10:13:03 symfony [info] {sfWebResponse} Send content (33169 o)
+Dec 13 10:13:06 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:13:06 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:13:06 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:13:06 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:13:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:13:06 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:13:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:13:06 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:13:06 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:13:06 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:13:06 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:13:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:13:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:13:06 symfony [info] {sfWebDebugLogger} Configuration 82.86 ms (9)
+Dec 13 10:13:06 symfony [info] {sfWebDebugLogger} Action "email/index" 81.01 ms (1)
+Dec 13 10:13:06 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 113.99 ms (1)
+Dec 13 10:13:06 symfony [info] {sfWebResponse} Send content (33169 o)
+Dec 13 10:13:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:13:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:13:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:13:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:13:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:13:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:13:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:13:55 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:13:56 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:13:56 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:13:56 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:13:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:13:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:13:56 symfony [info] {sfWebDebugLogger} Configuration 442.26 ms (9)
+Dec 13 10:13:56 symfony [info] {sfWebDebugLogger} Action "email/index" 169.86 ms (1)
+Dec 13 10:13:56 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 144.97 ms (1)
+Dec 13 10:13:56 symfony [info] {sfWebResponse} Send content (33522 o)
+Dec 13 10:14:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:14:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:14:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:14:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:14:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:14:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:14:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:14:08 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:14:08 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:14:08 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:14:08 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:14:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:14:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:14:08 symfony [info] {sfWebDebugLogger} Configuration 83.22 ms (9)
+Dec 13 10:14:08 symfony [info] {sfWebDebugLogger} Action "email/index" 92.78 ms (1)
+Dec 13 10:14:08 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 136.98 ms (1)
+Dec 13 10:14:08 symfony [info] {sfWebResponse} Send content (33503 o)
+Dec 13 10:17:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 10:17:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 10:17:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 10:17:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 10:17:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 10:17:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 10:17:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 10:17:15 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 10:17:15 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 10:17:15 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:17:15 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 10:17:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 10:17:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 10:17:15 symfony [info] {sfWebDebugLogger} Configuration 83.91 ms (9)
+Dec 13 10:17:15 symfony [info] {sfWebDebugLogger} Action "email/index" 79.86 ms (1)
+Dec 13 10:17:15 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 87.84 ms (1)
+Dec 13 10:17:15 symfony [info] {sfWebResponse} Send content (28444 o)
+Dec 13 11:32:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 11:32:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 11:32:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 11:32:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 11:32:53 symfony [info] {myUser} Automatic user logout due to timeout
+Dec 13 11:32:53 symfony [info] {myUser} User is not authenticated
+Dec 13 11:32:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 11:32:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 11:32:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 11:32:53 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 11:32:53 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 11:32:53 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 11:32:53 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 11:32:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 11:32:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 11:32:53 symfony [info] {sfWebDebugLogger} Configuration 97.03 ms (9)
+Dec 13 11:32:53 symfony [info] {sfWebDebugLogger} Action "email/index" 87.63 ms (1)
+Dec 13 11:32:53 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 113.78 ms (1)
+Dec 13 11:32:53 symfony [info] {sfWebResponse} Send content (29040 o)
+Dec 13 11:32:57 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 11:32:57 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 11:32:57 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 11:32:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 11:32:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 11:32:57 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 11:32:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 11:32:57 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 11:32:57 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 11:32:57 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 11:32:57 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 11:32:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 11:32:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 11:32:57 symfony [info] {sfWebDebugLogger} Configuration 83.63 ms (9)
+Dec 13 11:32:57 symfony [info] {sfWebDebugLogger} Action "email/index" 80.39 ms (1)
+Dec 13 11:32:57 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 85.35 ms (1)
+Dec 13 11:32:57 symfony [info] {sfWebResponse} Send content (27340 o)
+Dec 13 13:25:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 13:25:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 13:25:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 13:25:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 13:25:48 symfony [info] {myUser} Automatic user logout due to timeout
+Dec 13 13:25:48 symfony [info] {myUser} User is not authenticated
+Dec 13 13:25:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 13:25:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 13:25:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 13:25:48 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 13:25:48 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 13:25:48 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 13:25:48 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 13:25:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 13:25:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 13:25:48 symfony [info] {sfWebDebugLogger} Configuration 83.06 ms (9)
+Dec 13 13:25:48 symfony [info] {sfWebDebugLogger} Action "email/index" 117.57 ms (1)
+Dec 13 13:25:48 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 84.93 ms (1)
+Dec 13 13:25:48 symfony [info] {sfWebResponse} Send content (27968 o)
+Dec 13 13:28:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 13:28:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 13:28:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 13:28:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 13:28:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 13:28:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 13:28:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 13:28:47 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 13:28:47 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 13:28:47 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 13:28:47 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 13:28:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 13:28:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 13:28:47 symfony [info] {sfWebDebugLogger} Configuration 86.27 ms (9)
+Dec 13 13:28:47 symfony [info] {sfWebDebugLogger} Action "email/index" 85.80 ms (1)
+Dec 13 13:28:47 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 86.01 ms (1)
+Dec 13 13:28:47 symfony [info] {sfWebResponse} Send content (27384 o)
+Dec 13 13:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 13:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 13:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 13:32:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 13:32:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 13:32:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 13:32:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 13:32:28 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 13:32:28 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 13:32:28 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 13:32:28 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 13:32:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 13:32:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 13:32:28 symfony [info] {sfWebDebugLogger} Configuration 72.64 ms (9)
+Dec 13 13:32:28 symfony [info] {sfWebDebugLogger} Action "email/index" 84.63 ms (1)
+Dec 13 13:32:28 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 94.52 ms (1)
+Dec 13 13:32:29 symfony [info] {sfWebResponse} Send content (27400 o)
+Dec 13 13:50:33 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 13:50:33 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 13:50:33 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 13:50:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 13:50:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 13:50:33 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 13:50:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 13:50:33 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 13:50:33 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 13:50:33 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 13:50:33 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 13:50:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 13:50:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 13:50:33 symfony [info] {sfWebDebugLogger} Configuration 77.19 ms (9)
+Dec 13 13:50:33 symfony [info] {sfWebDebugLogger} Action "email/index" 84.59 ms (1)
+Dec 13 13:50:33 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 90.89 ms (1)
+Dec 13 13:50:33 symfony [info] {sfWebResponse} Send content (27423 o)
+Dec 13 14:03:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:03:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:03:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:03:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:03:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:03:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:03:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:03:26 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:03:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 14:03:26 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:03:26 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:03:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:03:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:03:26 symfony [info] {sfWebDebugLogger} Configuration 117.66 ms (9)
+Dec 13 14:03:26 symfony [info] {sfWebDebugLogger} Action "email/index" 98.36 ms (1)
+Dec 13 14:03:26 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 114.36 ms (1)
+Dec 13 14:03:26 symfony [info] {sfWebResponse} Send content (27425 o)
+Dec 13 14:03:46 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:03:46 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:03:46 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:03:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:03:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:03:46 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:03:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:03:46 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:03:46 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexadded.php"
+Dec 13 14:03:47 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:03:47 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:03:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:03:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:03:47 symfony [info] {sfWebDebugLogger} Configuration 72.81 ms (9)
+Dec 13 14:03:47 symfony [info] {sfWebDebugLogger} Action "email/index" 87.80 ms (1)
+Dec 13 14:03:47 symfony [info] {sfWebDebugLogger} View "added" for "email/index" 75.99 ms (1)
+Dec 13 14:03:47 symfony [info] {sfWebResponse} Send content (26583 o)
+Dec 13 14:05:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:05:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:05:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:05:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:05:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:05:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:05:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:05:02 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:05:02 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 14:05:02 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:05:02 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:05:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:05:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:05:02 symfony [info] {sfWebDebugLogger} Configuration 64.18 ms (9)
+Dec 13 14:05:02 symfony [info] {sfWebDebugLogger} Action "email/index" 84.94 ms (1)
+Dec 13 14:05:02 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 91.61 ms (1)
+Dec 13 14:05:02 symfony [info] {sfWebResponse} Send content (27423 o)
+Dec 13 14:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:05:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:05:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:05:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:05:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:05:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:05:04 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:05:04 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 14:05:04 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:05:04 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:05:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:05:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:05:04 symfony [info] {sfWebDebugLogger} Configuration 83.33 ms (9)
+Dec 13 14:05:04 symfony [info] {sfWebDebugLogger} Action "email/index" 88.53 ms (1)
+Dec 13 14:05:04 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 94.48 ms (1)
+Dec 13 14:05:04 symfony [info] {sfWebResponse} Send content (28032 o)
+Dec 13 14:06:57 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:06:57 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:06:57 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:06:57 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:06:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:06:57 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:06:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:06:57 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:06:57 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 14:06:57 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:06:57 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:06:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:06:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:06:57 symfony [info] {sfWebDebugLogger} Configuration 72.66 ms (9)
+Dec 13 14:06:57 symfony [info] {sfWebDebugLogger} Action "email/index" 89.84 ms (1)
+Dec 13 14:06:57 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 90.08 ms (1)
+Dec 13 14:06:57 symfony [info] {sfWebResponse} Send content (27993 o)
+Dec 13 14:07:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:07:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:07:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:07:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:07:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:07:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:07:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:07:10 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:09:26 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:09:26 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:09:26 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:09:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:09:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:09:26 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:09:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:09:26 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:09:29 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:09:29 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:09:29 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:09:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:09:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:09:29 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:09:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:09:29 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:11:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:11:16 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:11:16 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:11:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:11:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:11:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:11:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:11:16 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:11:16 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexadded.php"
+Dec 13 14:11:16 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:11:16 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:11:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:11:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:11:16 symfony [info] {sfWebDebugLogger} Configuration 82.98 ms (9)
+Dec 13 14:11:16 symfony [info] {sfWebDebugLogger} Action "email/index" 82.65 ms (1)
+Dec 13 14:11:16 symfony [info] {sfWebDebugLogger} View "added" for "email/index" 76.52 ms (1)
+Dec 13 14:11:16 symfony [info] {sfWebResponse} Send content (26641 o)
+Dec 13 14:11:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:11:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:11:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:11:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:11:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:11:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:11:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:11:59 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} prepare: INSERT INTO emailschedule (`SCDID`,`USERID`,`EMAIL`,`SCHEDULE`,`ACTIVE`,`CREATIONDATE`,`TEMPLATEID`,`SORTSTRING`,`SUBJECT`) VALUES (:p1,:p2,:p3,:p4,:p5,:p6,:p7,:p8,:p9)
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding 1 at position :p2 w/ PDO type PDO::PARAM_INT
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding 'vvcxv.SDA@dasd.cas' at position :p3 w/ PDO type PDO::PARAM_STR
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding 'vcxvx' at position :p4 w/ PDO type PDO::PARAM_STR
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding 1 at position :p5 w/ PDO type PDO::PARAM_INT
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding '2008-12-13 14:11:59' at position :p6 w/ PDO type PDO::PARAM_STR
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding 'vcvxc' at position :p7 w/ PDO type PDO::PARAM_STR
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding 'dsada' at position :p8 w/ PDO type PDO::PARAM_STR
+Dec 13 14:11:59 symfony [debug] {sfPropelLogger} Binding 'dsada' at position :p9 w/ PDO type PDO::PARAM_STR
+Dec 13 14:11:59 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexadded.php"
+Dec 13 14:11:59 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:11:59 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:11:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:11:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:11:59 symfony [info] {sfWebDebugLogger} Configuration 74.20 ms (9)
+Dec 13 14:11:59 symfony [info] {sfWebDebugLogger} Action "email/index" 202.97 ms (1)
+Dec 13 14:11:59 symfony [info] {sfWebDebugLogger} View "added" for "email/index" 76.67 ms (1)
+Dec 13 14:11:59 symfony [info] {sfWebResponse} Send content (27455 o)
+Dec 13 14:12:31 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:12:31 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:12:31 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:12:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:12:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:12:31 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:12:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:12:31 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} prepare: INSERT INTO emailschedule (`SCDID`,`USERID`,`EMAIL`,`SCHEDULE`,`ACTIVE`,`CREATIONDATE`,`TEMPLATEID`,`SORTSTRING`,`SUBJECT`) VALUES (:p1,:p2,:p3,:p4,:p5,:p6,:p7,:p8,:p9)
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding 1 at position :p2 w/ PDO type PDO::PARAM_INT
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding 'vvcxv.SDA@dasd.cas' at position :p3 w/ PDO type PDO::PARAM_STR
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding 'vcxvx' at position :p4 w/ PDO type PDO::PARAM_STR
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding 1 at position :p5 w/ PDO type PDO::PARAM_INT
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding '2008-12-13 14:12:31' at position :p6 w/ PDO type PDO::PARAM_STR
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding 'vcvxc' at position :p7 w/ PDO type PDO::PARAM_STR
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding 'dsada' at position :p8 w/ PDO type PDO::PARAM_STR
+Dec 13 14:12:31 symfony [debug] {sfPropelLogger} Binding 'dsada' at position :p9 w/ PDO type PDO::PARAM_STR
+Dec 13 14:12:31 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexadded.php"
+Dec 13 14:12:31 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:12:31 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:12:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:12:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:12:31 symfony [info] {sfWebDebugLogger} Configuration 90.43 ms (9)
+Dec 13 14:12:31 symfony [info] {sfWebDebugLogger} Action "email/index" 150.00 ms (1)
+Dec 13 14:12:31 symfony [info] {sfWebDebugLogger} View "added" for "email/index" 86.14 ms (1)
+Dec 13 14:12:31 symfony [info] {sfWebResponse} Send content (27455 o)
+Dec 13 14:20:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:20:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:20:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:20:12 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:26:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:26:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:26:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:26:04 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:26:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:26:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:26:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:26:04 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:26:04 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 14:26:04 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:26:04 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:26:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:26:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:26:04 symfony [info] {sfWebDebugLogger} Configuration 72.99 ms (9)
+Dec 13 14:26:04 symfony [info] {sfWebDebugLogger} Action "email/index" 85.95 ms (1)
+Dec 13 14:26:04 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 89.21 ms (1)
+Dec 13 14:26:04 symfony [info] {sfWebResponse} Send content (27423 o)
+Dec 13 14:26:13 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:26:13 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:26:13 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:26:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:26:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:26:13 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:26:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:26:13 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} prepare: INSERT INTO emailschedule (`SCDID`,`USERID`,`EMAIL`,`SCHEDULE`,`ACTIVE`,`CREATIONDATE`,`TEMPLATEID`,`SORTSTRING`,`SUBJECT`) VALUES (:p1,:p2,:p3,:p4,:p5,:p6,:p7,:p8,:p9)
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding 1 at position :p2 w/ PDO type PDO::PARAM_INT
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding 'vvcxv.SDA@dasd.cas' at position :p3 w/ PDO type PDO::PARAM_STR
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding 'vcxvx' at position :p4 w/ PDO type PDO::PARAM_STR
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding 1 at position :p5 w/ PDO type PDO::PARAM_INT
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding '2008-12-13 14:26:14' at position :p6 w/ PDO type PDO::PARAM_STR
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding 'vcvxc' at position :p7 w/ PDO type PDO::PARAM_STR
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding 'dsada' at position :p8 w/ PDO type PDO::PARAM_STR
+Dec 13 14:26:14 symfony [debug] {sfPropelLogger} Binding 'dsada' at position :p9 w/ PDO type PDO::PARAM_STR
+Dec 13 14:26:14 symfony [info] {sfFrontWebController} Redirect to "http://localhost/mustDo/web/remindersList_dev.php/email/added/scheduleId/3"
+Dec 13 14:26:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 13 14:26:14 symfony [info] {sfWebResponse} Send header "Location: http://localhost/mustDo/web/remindersList_dev.php/email/added/scheduleId/3"
+Dec 13 14:26:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:26:14 symfony [info] {sfWebDebugLogger} Configuration 50.69 ms (8)
+Dec 13 14:26:14 symfony [info] {sfWebDebugLogger} Action "email/index" 213.79 ms (1)
+Dec 13 14:26:14 symfony [info] {sfWebResponse} Send content (22585 o)
+Dec 13 14:26:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:26:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:26:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:26:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /email/added/scheduleId/3 with parameters array (  'scheduleId' => '3',  'module' => 'email',  'action' => 'added',)
+Dec 13 14:26:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:26:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:26:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:26:14 symfony [info] {emailActions} Call "emailActions->executeAdded()"
+Dec 13 14:26:14 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/addedSuccess.php"
+Dec 13 14:26:14 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:26:14 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:26:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:26:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:26:14 symfony [info] {sfWebDebugLogger} Configuration 84.49 ms (9)
+Dec 13 14:26:14 symfony [info] {sfWebDebugLogger} Action "email/added" 0.38 ms (1)
+Dec 13 14:26:14 symfony [info] {sfWebDebugLogger} View "Success" for "email/added" 79.21 ms (1)
+Dec 13 14:26:14 symfony [info] {sfWebResponse} Send content (26773 o)
+Dec 13 14:29:57 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:29:57 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:29:57 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:29:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /email/added/scheduleId/3 with parameters array (  'scheduleId' => '3',  'module' => 'email',  'action' => 'added',)
+Dec 13 14:29:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:29:57 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:29:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:29:57 symfony [info] {emailActions} Call "emailActions->executeAdded()"
+Dec 13 14:29:57 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/addedSuccess.php"
+Dec 13 14:29:57 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:29:57 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:29:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:29:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:29:57 symfony [info] {sfWebDebugLogger} Configuration 1285.74 ms (9)
+Dec 13 14:29:57 symfony [info] {sfWebDebugLogger} Action "email/added" 0.38 ms (1)
+Dec 13 14:29:57 symfony [info] {sfWebDebugLogger} View "Success" for "email/added" 94.05 ms (1)
+Dec 13 14:29:57 symfony [info] {sfWebResponse} Send content (26440 o)
+Dec 13 14:30:09 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:30:09 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:30:09 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:30:09 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/email/" (/).
+Dec 13 14:30:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:30:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:30:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:30:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:30:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:30:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:30:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:30:14 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:30:14 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/indexSuccess.php"
+Dec 13 14:30:14 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:30:14 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:30:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:30:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:30:14 symfony [info] {sfWebDebugLogger} Configuration 86.56 ms (9)
+Dec 13 14:30:14 symfony [info] {sfWebDebugLogger} Action "email/index" 84.19 ms (1)
+Dec 13 14:30:14 symfony [info] {sfWebDebugLogger} View "Success" for "email/index" 86.18 ms (1)
+Dec 13 14:30:14 symfony [info] {sfWebResponse} Send content (27391 o)
+Dec 13 14:30:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:30:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:30:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:30:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /email with parameters array (  'module' => 'email',  'action' => 'index',)
+Dec 13 14:30:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:30:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:30:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:30:23 symfony [info] {emailActions} Call "emailActions->executeIndex()"
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} prepare: INSERT INTO emailschedule (`SCDID`,`USERID`,`EMAIL`,`SCHEDULE`,`ACTIVE`,`CREATIONDATE`,`TEMPLATEID`,`SORTSTRING`,`SUBJECT`) VALUES (:p1,:p2,:p3,:p4,:p5,:p6,:p7,:p8,:p9)
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding 1 at position :p2 w/ PDO type PDO::PARAM_INT
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding 'vvcxv.SDA@dasd.cas' at position :p3 w/ PDO type PDO::PARAM_STR
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding 'vcxvx' at position :p4 w/ PDO type PDO::PARAM_STR
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding 1 at position :p5 w/ PDO type PDO::PARAM_INT
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding '2008-12-13 14:30:23' at position :p6 w/ PDO type PDO::PARAM_STR
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding 'vcvxc' at position :p7 w/ PDO type PDO::PARAM_STR
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding 'dsada' at position :p8 w/ PDO type PDO::PARAM_STR
+Dec 13 14:30:23 symfony [debug] {sfPropelLogger} Binding 'dsada' at position :p9 w/ PDO type PDO::PARAM_STR
+Dec 13 14:30:23 symfony [info] {sfFrontWebController} Redirect to "http://localhost/mustDo/web/remindersList_dev.php/email/added/scheduleId/4"
+Dec 13 14:30:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Dec 13 14:30:23 symfony [info] {sfWebResponse} Send header "Location: http://localhost/mustDo/web/remindersList_dev.php/email/added/scheduleId/4"
+Dec 13 14:30:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:30:23 symfony [info] {sfWebDebugLogger} Configuration 77.54 ms (8)
+Dec 13 14:30:23 symfony [info] {sfWebDebugLogger} Action "email/index" 204.01 ms (1)
+Dec 13 14:30:23 symfony [info] {sfWebResponse} Send content (22585 o)
+Dec 13 14:30:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:30:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:30:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:30:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /email/added/scheduleId/4 with parameters array (  'scheduleId' => '4',  'module' => 'email',  'action' => 'added',)
+Dec 13 14:30:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:30:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:30:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:30:23 symfony [info] {emailActions} Call "emailActions->executeAdded()"
+Dec 13 14:30:23 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/addedSuccess.php"
+Dec 13 14:30:23 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:30:23 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:30:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:30:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:30:23 symfony [info] {sfWebDebugLogger} Configuration 84.09 ms (9)
+Dec 13 14:30:23 symfony [info] {sfWebDebugLogger} Action "email/added" 0.37 ms (1)
+Dec 13 14:30:23 symfony [info] {sfWebDebugLogger} View "Success" for "email/added" 72.37 ms (1)
+Dec 13 14:30:23 symfony [info] {sfWebResponse} Send content (26406 o)
+Dec 13 14:36:33 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:36:33 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:36:33 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:36:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /email/added/scheduleId/4 with parameters array (  'scheduleId' => '4',  'module' => 'email',  'action' => 'added',)
+Dec 13 14:36:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:36:33 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:36:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:36:33 symfony [info] {emailActions} Call "emailActions->executeAdded()"
+Dec 13 14:36:33 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/addedSuccess.php"
+Dec 13 14:36:33 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:36:33 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:36:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:36:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:36:33 symfony [info] {sfWebDebugLogger} Configuration 85.50 ms (9)
+Dec 13 14:36:33 symfony [info] {sfWebDebugLogger} Action "email/added" 0.37 ms (1)
+Dec 13 14:36:33 symfony [info] {sfWebDebugLogger} View "Success" for "email/added" 73.73 ms (1)
+Dec 13 14:36:33 symfony [info] {sfWebResponse} Send content (26438 o)
+Dec 13 14:36:34 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Dec 13 14:36:34 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Dec 13 14:36:34 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Dec 13 14:36:34 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /email/added/scheduleId/4 with parameters array (  'scheduleId' => '4',  'module' => 'email',  'action' => 'added',)
+Dec 13 14:36:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Dec 13 14:36:34 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Dec 13 14:36:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Dec 13 14:36:34 symfony [info] {emailActions} Call "emailActions->executeAdded()"
+Dec 13 14:36:34 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\modules/email/templates/addedSuccess.php"
+Dec 13 14:36:35 symfony [info] {sfPHPView} Decorate content with "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:36:35 symfony [info] {sfPHPView} Render "C:\wamp\www\mustDo\apps\remindersList\templates/layout.php"
+Dec 13 14:36:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Dec 13 14:36:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Dec 13 14:36:35 symfony [info] {sfWebDebugLogger} Configuration 82.21 ms (9)
+Dec 13 14:36:35 symfony [info] {sfWebDebugLogger} Action "email/added" 0.37 ms (1)
+Dec 13 14:36:35 symfony [info] {sfWebDebugLogger} View "Success" for "email/added" 73.74 ms (1)
+Dec 13 14:36:35 symfony [info] {sfWebResponse} Send content (26438 o)
